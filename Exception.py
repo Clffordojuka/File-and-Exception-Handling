@@ -3,11 +3,11 @@ def modify_content(content):
     Modify the content of the file.
     Example: Convert text to uppercase.
     """
-    return content.upper()  # You can customize this function for other modifications.
+    return content.upper()  # Customize this function for other modifications.
 
 def read_and_write_files():
     try:
-        # Ask the user for the input filename
+        # User inputs an existing filename
         input_file = input("Enter the name of the file to read: ")
         
         # Open and read the input file
